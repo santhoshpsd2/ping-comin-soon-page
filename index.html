@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+  <img class="logo" src="./images/logo.svg" alt="logo">
+  <h1>
+  We are launching <span class="soon">soon!</span>
+</h1>
+<p class="subscribe">
+  Subscribe and get notified
+</p>
+<form action="#" name="myform" class="myform" onsubmit="return validateform()">
+  <div class="inputerror">
+  <input class="emailid" type="text" name="email" id="email" placeholder="Your Email Address">
+  <p class="errormess">Please Provide a valid email address</p>
+</div>
+  <button type="submit" class="submitbutton">Notify Me</button>
+</form>
+<img class="ill-image" src="./images/illustration-dashboard.png" alt="illustration dashboard">
+
+</main>
+<footer>
+  <ul class="social-list">
+    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+  </ul>
+  <p class="foottext">
+  &copy; Copyright Ping. All rights reserved.</p>
+</footer>
+  
+</body>
+<script src="./script.js"></script>
+</html>
